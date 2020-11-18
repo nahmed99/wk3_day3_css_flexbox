@@ -1,5 +1,8 @@
 #gallery {
-  
+  display: flex; /* use flexbox */
+  flex-direction: row; /* this is the default*/
+  /* flex-wrap: nowrap;  this is the default*/
+  flex-wrap: wrap; /* this is the default*/
 }
 
 .image {
