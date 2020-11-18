@@ -10,10 +10,13 @@
   height: 250px;
   background-color: lightblue;
   border: 1px solid white;
+  /* box-sizing: 33.333% or use "content";  This will include the wholte box - including borders etc */
+  flex: 33%; /* fit each element to 33% of the screen ...the border etc could push this over a row*/
 }
 
 .large {
-
+  flex: 66%;
+  /* height: 500px; our flex direction is row, therefore this is required to increase the height too */
 }
 
 .first {
