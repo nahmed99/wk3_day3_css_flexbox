@@ -15,14 +15,16 @@
 }
 
 .large {
-  flex: 66%;
+  flex: 66%; /* Make these boxes twice as wide as the others */
   /* height: 500px; our flex direction is row, therefore this is required to increase the height too */
 }
 
 .first {
-
+  /* Add somtheing here to make this box appear first */
+  order: -1; /* Everything else has order number 0 */
 }
 
 .last {
-
+  /* Add somtheing here to make this box appear last */
+  order: 1; /* Everything else has order number 0 */
 }
